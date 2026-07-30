@@ -1,0 +1,47 @@
+{
+  "categorias": [
+    {
+      "nombre": "Acción",
+      "peliculas": [
+        {
+          "id": "1",
+          "titulo": "Big Buck Bunny",
+          "descripcion": "Cortometraje animado de código abierto, ideal para pruebas de streaming.",
+          "portada": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+          "url_video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        },
+        {
+          "id": "2",
+          "titulo": "Tears of Steel",
+          "descripcion": "Cortometraje de ciencia ficción de Blender Foundation.",
+          "portada": "https://mango.blender.org/wp-content/uploads/2013/05/01_thom_celia_bridge.jpg",
+          "url_video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+        }
+      ]
+    },
+    {
+      "nombre": "Drama",
+      "peliculas": [
+        {
+          "id": "3",
+          "titulo": "Sintel",
+          "descripcion": "Cortometraje dramático de fantasía, Blender Foundation.",
+          "portada": "https://durian.blender.org/wp-content/uploads/2010/06/05.8_comp_light.jpg",
+          "url_video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+        }
+      ]
+    },
+    {
+      "nombre": "HLS Demo",
+      "peliculas": [
+        {
+          "id": "4",
+          "titulo": "Apple HLS Test Stream",
+          "descripcion": "Stream de prueba oficial de Apple en formato HLS (.m3u8).",
+          "portada": "https://developer.apple.com/assets/elements/icons/hls/hls-96x96_2x.png",
+          "url_video": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+        }
+      ]
+    }
+  ]
+}
