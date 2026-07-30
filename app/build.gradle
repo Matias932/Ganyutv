@@ -23,9 +23,13 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.leanback:leanback:1.0.0'
+    implementation('androidx.leanback:leanback:1.0.0') {
+        exclude group: 'androidx.core', module: 'core-ktx'
+    }
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.fragment:fragment:1.6.2'
+    implementation('androidx.fragment:fragment:1.6.2') {
+        exclude group: 'androidx.core', module: 'core-ktx'
+    }
 
     implementation 'com.google.android.exoplayer:exoplayer-core:2.19.1'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.19.1'
